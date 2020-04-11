@@ -15,6 +15,7 @@ template <class T> void show(const T& value)
 	}
 	cout << endl;
 }
+
 void main()
 {
 	short int val1 = 0;

@@ -55,7 +55,8 @@ struct Tstruct2
 
 void main()
 {
-    cout << "Structure with alignment" << endl << endl;
+    setlocale(LC_ALL, "Rus");
+    cout << "Структура с выравниванием" << endl << endl;
    
     auto begin = chrono::steady_clock::now();
     
@@ -78,8 +79,8 @@ void main()
     auto end = chrono::steady_clock::now();
     auto elapsed_ms = chrono::duration_cast<chrono::nanoseconds>(end - begin);
    
-    cout << "Time with alignment: " << elapsed_ms.count() / 10 << "ns" << endl << endl << endl;
-    cout << "Structure without alignment " << endl << endl;
+    cout << "Время с выравниванием: " << elapsed_ms.count() / 10 << "ns" << endl << endl << endl;
+    cout << "Структура без выравнивания" << endl << endl;
     
     auto begin2 = chrono::steady_clock::now();
     
@@ -100,5 +101,7 @@ void main()
     auto elapsed_ms2 = chrono::duration_cast<chrono::nanoseconds>(end2 - begin2);
     
     cout << endl;
-    cout << "Time without alignment: " << elapsed_ms2.count() / 10 << "ns" << endl;
+    cout << "Время без выравнивания: " << elapsed_ms2.count() / 10 << "ns" << endl;
 }
+
+
