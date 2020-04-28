@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab7\Source.cpp(55,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab7\Source.cpp(209,10): warning C4101: tempArray: неиспользованная локальная переменная
+  lab7.vcxproj -> C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\Debug\lab7.exe
