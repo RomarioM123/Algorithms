@@ -40,7 +40,7 @@ int main() {
 	setlocale(LC_ALL, "Rus");
 	struct List* h = Init();
 	struct List* t = Init();
-	const int SIZE = 20;		//размер массивов
+	const int SIZE = 1000000;	//размер массивов
 	int array[SIZE];			//массив
 	int* pArray = array;		//указатель на массив
 	int key;					//искомое число
