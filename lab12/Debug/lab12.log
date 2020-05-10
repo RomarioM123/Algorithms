@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab12\Source.cpp(30,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab12\Source.cpp(166,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab12\Source.cpp(178,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab12\Source.cpp(189,30): warning C4018: <: несоответствие типов со знаком и без знака
+  lab12.vcxproj -> C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\Debug\lab12.exe
