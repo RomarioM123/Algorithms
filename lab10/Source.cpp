@@ -112,7 +112,7 @@ void Task()
 	auto result = (time - timeCopy) / 10;
 	if (value == 0) value = 1;
 
-	cout << "\nКоличество элементов: " << SIZE << "\nСреднее время поиска: " << result.count() << endl;
+	cout << "Количество элементов: " << SIZE << "\nСреднее время поиска: " << result.count() << endl;
 	cout << "Количество сравнений: " << amountOfComparisons / value << endl;
 	
 	delete[] SurnameList;

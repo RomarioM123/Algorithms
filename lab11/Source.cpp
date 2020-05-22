@@ -134,7 +134,7 @@ void ShakerSort(int* a, int N, unsigned long long* comparisons, unsigned long lo
 
 	while (b <= e)
 	{
-		for (i = e; i >/*=*/ b; i--)
+		for (i = e; i > b; i--)
 		{
 			if (condition(a[i - 1],a[i]))
 			{

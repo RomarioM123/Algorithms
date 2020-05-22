@@ -32,7 +32,6 @@ public:
 	void PrintTree(Tree*, int) const;			//вывод дерева на экран
 	void DeleteTree(Tree*);						//удаление дерева
 	void Task(Tree*);							//индивидуальное задание
-	void PrintTreeLikeMas(Tree*& Tree)const;	//Функция обхода
 };
 
 int main()
@@ -155,15 +154,6 @@ void Tree::DeleteTree(Tree* ptr)
 		DeleteTree(ptr->left);
 		DeleteTree(ptr->right);
 		delete(ptr);
-	}
-}
-void Tree::PrintTreeLikeMas(Tree*& Tree) const	//Функция обхода
-{
-	if (Tree != NULL)               //Пока не встретится пустое звено
-	{
-		PrintTreeLikeMas(Tree->left);	//Рекурсивная функция для вывода левого поддерева
-		cout << Tree->key << "  ";		//Отображаем корень дерева
-		PrintTreeLikeMas(Tree->right);	//Рекурсивная функци для вывода правого поддерева
 	}
 }
 

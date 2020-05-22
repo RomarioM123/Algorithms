@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab14\Source.cpp(54,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\lab14\Source.cpp(111): warning C4717: Check: рекурсия на всех путях выполнения, функция вызовет переполнение стека
+  lab14.vcxproj -> C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\Debug\lab14.exe

@@ -1,3 +1,2 @@
-﻿E:\Programs\Visual Studio 19 and other\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(76,5): warning : Процесс не может получить доступ к файлу "c:\users\romar\desktop\универ\программирование\c++\algorithms\debug\lab2.pdb", так как этот файл используется другим процессом.
-  Source.cpp
+﻿  Source.cpp
   lab2.vcxproj -> C:\Users\romar\Desktop\Универ\Программирование\c++\Algorithms\Debug\lab2.exe
